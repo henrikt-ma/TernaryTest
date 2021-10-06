@@ -1,0 +1,5 @@
+within TernaryTest.Icons;
+
+partial model NegativeExample
+  annotation(preferredView = icon, Diagram(coordinateSystem(extent = {{-150, -90}, {150, 90}}, preserveAspectRatio = true, initialScale = 0.1, grid = {5, 5})), Icon(coordinateSystem(extent = {{-100, -100}, {100, 100}}, preserveAspectRatio = true, initialScale = 0.1, grid = {10, 10}), graphics = {Polygon(visible = true, origin = {15.778, -5.198}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, points = {{84.222, 48.528}, {28.319, 105.198}, {-59.108, 105.198}, {-115.778, 50.062}, {-115.778, -38.899}, {-59.875, -94.802}, {29.853, -94.802}, {84.222, -38.899}}), Polygon(visible = true, origin = {7.778, 2.802}, fillColor = {255, 0, 0}, pattern = LinePattern.None, fillPattern = FillPattern.Solid, points = {{82.222, 37.198}, {32.222, 87.198}, {-47.778, 87.198}, {-97.778, 37.198}, {-97.778, -42.802}, {-47.778, -92.802}, {32.222, -92.802}, {82.222, -42.802}}), Polygon(visible = true, lineColor = {0, 114, 195}, fillColor = {0, 114, 195}, fillPattern = FillPattern.Solid, points = {{-36, 60}, {64, 0}, {-36, -60}, {-36, 60}})}));
+end NegativeExample;

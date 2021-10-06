@@ -1,0 +1,12 @@
+LiteralUnknown
+ExplicitConversion
+NoConversionFromTernary
+NoConversionFromInteger
+ImplicitConversion
+NoConversionToBoolean
+ConditionalComponent
+EvaluatedParameter
+Relations
+Conjunction
+Disjunction
+Negation

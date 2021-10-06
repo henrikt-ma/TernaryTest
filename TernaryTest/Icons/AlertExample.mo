@@ -1,0 +1,5 @@
+within TernaryTest.Icons;
+
+partial model AlertExample "Icon for example of a non-working model"
+  annotation(preferredView = icon, Diagram(coordinateSystem(extent = {{-150, -90}, {150, 90}}, preserveAspectRatio = true, initialScale = 0.1, grid = {5, 5})), Icon(coordinateSystem(extent = {{-100, -100}, {100, 100}}, preserveAspectRatio = true, initialScale = 0.1, grid = {10, 10}), graphics = {Ellipse(visible = true, lineColor = {0, 114, 195}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, extent = {{-100, -100}, {100, 100}}), Polygon(visible = true, lineColor = {0, 114, 195}, fillColor = {0, 114, 195}, fillPattern = FillPattern.Solid, points = {{-36, 60}, {64, 0}, {-36, -60}, {-36, 60}}), Polygon(visible = true, origin = {0, 47.143}, fillColor = {255, 0, 0}, fillPattern = FillPattern.Solid, points = {{0, 42.857}, {30, 42.857}, {50, 22.857}, {10, -97.143}, {-10, -97.143}, {-50, 22.857}, {-30, 42.857}}, smooth = Smooth.Bezier), Ellipse(visible = true, origin = {0, -74.408}, fillColor = {255, 0, 0}, fillPattern = FillPattern.Solid, extent = {{-20, -20}, {20, 20}})}));
+end AlertExample;
