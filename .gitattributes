@@ -1,0 +1,58 @@
+# Default to automatic detection of files to treat as text.
+* text=auto
+
+# Files that shall use native line endings in working repository:
+*.txt    text
+*.cpp    text
+*.c      text
+*.h      text
+*.f      text
+*.mos    text
+*.html   text
+*.css    text
+*.dtd    text
+*.xml    text
+*.sh     text
+*.py     text
+*.pl     text
+*.g      text
+*.ml     text
+*.m      text
+*.wl     text
+*.json   text
+*.sbml   text
+Makefile text
+CMakeLists.txt text
+*.cmake text
+*.pro text
+*.pri text
+
+# Windows specific text files to be edited on other platforms
+*.sln    text
+*.vcproj text
+*.bat    text
+
+# Files that shall use LF in working directory:
+*.mo            text   eol=lf
+package.order   text   eol=lf
+
+
+
+# Files that shall be treated almost as binary; no line ending conversions, diff still meaningul:
+*.nb    -text  -whitespace
+*.step  -text
+*.obj   -text
+
+# Files that shall be treated entirely as binary; no line ending conversions, no meaningful diffs:
+# Note: "binary" is a built-in macro for "-diff -merge -text".
+*.png    binary
+*.jpg    binary
+*.JPG    binary
+*.gif    binary
+*.stl    binary
+*.FCStd  binary
+*.mp4    binary
+*.thmx   binary
+*.xlsx   binary
+*.docx   binary
+*.pdf    binary
