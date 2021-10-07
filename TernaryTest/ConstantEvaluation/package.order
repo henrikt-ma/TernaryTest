@@ -4,7 +4,8 @@ NoConversionFromTernary
 NoConversionFromInteger
 ImplicitConversion
 NoConversionToBoolean
-ConditionalComponent
+ConditionalComponentError
+ConditionalComponentCorrect
 EvaluatedParameter
 Relations
 Conjunction
