@@ -1,0 +1,5 @@
+within TernaryTest.Icons;
+
+partial function ExternalFunction
+  annotation(Diagram(coordinateSystem(extent = {{-150, -90}, {150, 90}}, preserveAspectRatio = true, initialScale = 0.1, grid = {5, 5})), Icon(coordinateSystem(extent = {{-100, -100}, {100, 100}}, preserveAspectRatio = true, initialScale = 0.1, grid = {5, 5}), graphics = {Ellipse(visible = true, lineColor = {0, 114, 195}, fillColor = {255, 255, 255}, fillPattern = FillPattern.Solid, extent = {{-100, -100}, {100, 100}}, startAngle = 90, closure = EllipseClosure.None), Polygon(visible = true, origin = {48.571, 48.571}, lineColor = {0, 114, 195}, fillColor = {255, 255, 255}, pattern = LinePattern.None, fillPattern = FillPattern.Sphere, points = {{51.429, 51.429}, {6.429, 51.429}, {31.429, 41.429}, {-3.992, 6.429}, {1.429, 1.429}, {-48.571, -48.571}, {1.429, 1.429}, {6.429, -3.571}, {41.429, 31.429}, {51.429, 6.429}}), Text(visible = true, origin = {-0, -5}, textColor = {0, 114, 195}, extent = {{-90, -80}, {90, 80}}, textString = "f")}));
+end ExternalFunction;
