@@ -1,4 +1,10 @@
 ToInteger
 FromInteger
+FromIntegerOutOfRangeAbove
+FromIntegerOutOfRangeBelow
+ConstantArgument
 Roundtrip
+ToIntegerArray
+OutputArray
+OutputArrayOutOfRange
 Utilities

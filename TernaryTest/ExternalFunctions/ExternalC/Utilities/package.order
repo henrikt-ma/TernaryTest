@@ -1,2 +1,5 @@
 toInteger
 fromInteger
+constArg
+fromIntegerArray
+toIntegerArray

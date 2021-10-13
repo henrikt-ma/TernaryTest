@@ -1,6 +1,6 @@
 within TernaryTest.ExternalFunctions.ExternalC;
 
-model ToInteger
+model ToIntegerArray
   extends Icons.Example;
 
   function next "Cycle between values of Ternary"
@@ -9,10 +9,10 @@ model ToInteger
   end next;
 
   __Wolfram_Ternary t(start = false, fixed = true);
-  Integer i = Utilities.toInteger(t);
+  Integer i = Utilities.toIntegerArray({false, t, true});
 equation
   when sample(0.5, 1.0) then
     t = next(pre(t));
   end when;
   annotation(TestCase(shoudPass = true), preferredView = text);
-end ToInteger;
+end ToIntegerArray;
