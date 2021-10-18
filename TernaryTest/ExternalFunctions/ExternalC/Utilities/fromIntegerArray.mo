@@ -5,7 +5,8 @@ function fromIntegerArray
   input Integer x;
   output __Wolfram_Ternary[3] y;
 
-  external "C"  annotation(Include = "
+  external "C" fromIntegerArray(x, y, size(y, 1));
+  annotation(Include = "
 void fromIntegerArray(int x, int* y, size_t yLen)
 {
   y[0] = -1;
