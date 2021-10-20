@@ -11,3 +11,5 @@ Relations
 Conjunction
 Disjunction
 Negation
+ArrayReduction
+TernaryReduction
