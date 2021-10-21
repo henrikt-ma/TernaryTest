@@ -7,5 +7,5 @@ model ImplicitConversion
 equation
   assert(t == __Wolfram_Ternary(true), "Wrong value of x.");
   assert(f == __Wolfram_Ternary(false), "Wrong value of x.");
-  annotation(TestCase(shoudPass = true), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoudPass = true), preferredView = text);
 end ImplicitConversion;

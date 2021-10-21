@@ -10,5 +10,5 @@ model ArrayReduction
 equation
   assert(conjunction == f, "Wrong result.");
   assert(disjunction == t, "Wrong result.");
-  annotation(TestCase(shoudPass = true), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoudPass = true), preferredView = text);
 end ArrayReduction;

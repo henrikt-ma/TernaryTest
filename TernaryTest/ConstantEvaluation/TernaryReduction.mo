@@ -7,5 +7,5 @@ model TernaryReduction
 equation
   assert(a == __Wolfram_unknown, "Wrong result.");
   assert(b == true, "Wrong result.");
-  annotation(TestCase(shoudPass = true), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoudPass = true), preferredView = text);
 end TernaryReduction;

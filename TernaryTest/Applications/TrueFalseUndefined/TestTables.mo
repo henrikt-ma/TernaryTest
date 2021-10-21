@@ -22,5 +22,5 @@ model TestTables
   __Wolfram_Ternary x_dis_y = TruthTables.disjunction[x, y] "To be compared with (but not equal to) x_or_y";
   __Wolfram_Ternary x_and_y = x and y "Built-in conjunction of x and y";
   __Wolfram_Ternary x_or_y = x or y "Built-in disjunction of x and y";
-  annotation(TestCase(shoudPass = true), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoudPass = true), preferredView = text);
 end TestTables;
