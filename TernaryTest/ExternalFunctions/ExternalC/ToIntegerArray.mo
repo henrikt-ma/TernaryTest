@@ -14,5 +14,5 @@ equation
   when sample(0.5, 1.0) then
     t = next(pre(t));
   end when;
-  annotation(experiment(StopTime = 10.0), TestCase(shoudPass = true), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = text);
 end ToIntegerArray;

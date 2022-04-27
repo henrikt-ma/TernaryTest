@@ -8,5 +8,5 @@ initial equation
   p = not b;
 equation
   assert(p == (not b), "Wrong value.");
-  annotation(experiment(StopTime = 10.0), TestCase(shoudPass = true), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = text);
 end InitialEquation;

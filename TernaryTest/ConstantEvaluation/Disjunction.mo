@@ -15,5 +15,5 @@ equation
   assert(t or f == t, "Wrong result.");
   assert(t or u == t, "Wrong result.");
   assert(t or t == t, "Wrong result.");
-  annotation(experiment(StopTime = 10.0), TestCase(shoudPass = true), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = text);
 end Disjunction;

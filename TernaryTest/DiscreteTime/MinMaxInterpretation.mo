@@ -15,5 +15,5 @@ model MinMaxInterpretation
   __Wolfram_Ternary x_or_y = x or y "To be compared with xy_max";
   __Wolfram_Ternary xy_min = min(x, y);
   __Wolfram_Ternary xy_max = max(x, y);
-  annotation(experiment(StopTime = 10.0), TestCase(shoudPass = true), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = text);
 end MinMaxInterpretation;

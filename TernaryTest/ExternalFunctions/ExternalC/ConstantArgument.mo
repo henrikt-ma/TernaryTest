@@ -7,5 +7,5 @@ equation
   when time > 0.5 then
     i = Utilities.constArg(true);
   end when;
-  annotation(experiment(StopTime = 10.0), TestCase(shoudPass = true), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = text);
 end ConstantArgument;
