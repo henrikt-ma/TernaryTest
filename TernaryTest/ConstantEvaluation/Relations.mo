@@ -60,5 +60,5 @@ equation
   assert(t <> f, "Wrong not equal.");
   assert(t <> u, "Wrong not equal.");
   assert(not (t <> t), "Wrong not equal.");
-  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = "text");
 end Relations;

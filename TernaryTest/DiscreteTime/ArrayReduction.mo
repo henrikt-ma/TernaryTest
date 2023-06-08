@@ -17,5 +17,5 @@ model ArrayReduction
 equation
   assert(conjunction == (x and y and z), "Wrong result.");
   assert(disjunction == (x or y or z), "Wrong result.");
-  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = "text");
 end ArrayReduction;

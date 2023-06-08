@@ -12,5 +12,5 @@ model ImplicitConversion
   constant __Wolfram_Ternary[2] c = {true, false};
   __Wolfram_Ternary[2] z = {true, time < 5};
   __Wolfram_Ternary[2] y = f(integer(time));
-  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = "text");
 end ImplicitConversion;

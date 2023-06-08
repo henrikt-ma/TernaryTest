@@ -8,5 +8,5 @@ equation
   when sample(0.5, 2.0) then
     i = pre(i) + 1;
   end when;
-  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = false), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = false), preferredView = "text");
 end FromIntegerOutOfRangeAbove;

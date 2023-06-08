@@ -10,5 +10,5 @@ initial equation
 equation
   x = if p == false then -1.0 elseif p == true then 1.0 else 0.0;
   assert(p == b, "Wrong value.");
-  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = "text");
 end MixedIterationInitialization;

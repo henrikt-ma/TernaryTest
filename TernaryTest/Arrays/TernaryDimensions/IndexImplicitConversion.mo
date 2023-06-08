@@ -8,5 +8,5 @@ equation
   for i loop
     b[i] = i > (time > 5.0);
   end for;
-  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = "text");
 end IndexImplicitConversion;

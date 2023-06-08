@@ -8,5 +8,5 @@ equation
   when sample(0.5, 1.0) then
     i = mod(pre(i) + 2, 3) - 1;
   end when;
-  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = "text");
 end OutputArray;

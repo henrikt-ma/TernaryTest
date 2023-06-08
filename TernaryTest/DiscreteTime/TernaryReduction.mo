@@ -12,5 +12,5 @@ model TernaryReduction
   __Wolfram_Ternary x = ternaryOf0to2(mod(i, 3));
   __Wolfram_Ternary a = min(t or x for t in __Wolfram_Ternary);
   __Wolfram_Ternary b = max(t or x for t in __Wolfram_Ternary);
-  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = text);
+  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = "text");
 end TernaryReduction;
