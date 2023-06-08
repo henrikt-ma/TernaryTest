@@ -9,9 +9,9 @@ function fromIntegerArray
   annotation(Include = "
 void fromIntegerArray(int x, int* y, size_t yLen)
 {
-  y[0] = -1;
+  y[0] = 1;
   y[1] = x;
-  y[2] = 1;
+  y[2] = 3;
 }
 ");
 end fromIntegerArray;
