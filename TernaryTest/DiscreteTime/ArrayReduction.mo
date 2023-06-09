@@ -12,8 +12,8 @@ model ArrayReduction
   __Wolfram_Ternary x = ternaryOf0to2(mod(i, 3));
   __Wolfram_Ternary y = ternaryOf0to2(mod(div(i, 3), 3));
   __Wolfram_Ternary z = ternaryOf0to2(mod(div(i, 9), 3));
-  __Wolfram_Ternary conjunction = min(x for x in {x, y, z}) "Reduction with min corresponds to conjunction";
-  __Wolfram_Ternary disjunction = max(x for x in {x, y, z}) "Reduction with max corresponds to disjunction";
+  __Wolfram_Ternary conjunction = min(i for i in {x, y, z}) "Reduction with min corresponds to conjunction";
+  __Wolfram_Ternary disjunction = max(i for i in {x, y, z}) "Reduction with max corresponds to disjunction";
 equation
   assert(conjunction == (x and y and z), "Wrong result.");
   assert(disjunction == (x or y or z), "Wrong result.");
