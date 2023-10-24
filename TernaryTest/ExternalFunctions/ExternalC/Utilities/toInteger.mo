@@ -5,7 +5,8 @@ function toInteger
   input __Wolfram_Ternary x;
   output Integer y;
 
-  external "C"  annotation(Include = "
+external "C"
+    annotation(Include = "
 int toInteger(int x)
 {
   return x;

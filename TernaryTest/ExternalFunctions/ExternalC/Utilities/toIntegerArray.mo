@@ -5,7 +5,8 @@ function toIntegerArray
   input __Wolfram_Ternary[3] x;
   output Integer y;
 
-  external "C"  annotation(Include = "
+external "C"
+    annotation(Include = "
 int toIntegerArray(const int* x, size_t xLen)
 {
   int y = 0;

@@ -5,7 +5,8 @@ function fromInteger
   input Integer x;
   output __Wolfram_Ternary y;
 
-  external "C"  annotation(Include = "
+external "C"
+    annotation(Include = "
 int fromInteger(int x)
 {
   return x;
