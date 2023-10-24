@@ -36,8 +36,6 @@ CMakeLists.txt text
 *.mo            text   eol=lf
 package.order   text   eol=lf
 
-
-
 # Files that shall be treated almost as binary; no line ending conversions, diff still meaningul:
 *.nb    -text  -whitespace
 *.step  -text
