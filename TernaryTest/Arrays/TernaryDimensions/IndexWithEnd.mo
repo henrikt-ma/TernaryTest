@@ -6,7 +6,7 @@ model IndexWithEnd
   Boolean x = b[end];
 equation
   for i loop
-    b[i] = i > (time > 5.0);
+    b[i] = i == ((if time > 1.0 then __Wolfram_unknown else false) or time > 2);
   end for;
-  annotation(experiment(StopTime = 10.0), TestCase(shoulDpass = true), preferredView = "text");
+  annotation(experiment(StopTime = 3.0), TestCase(shoulDpass = true), preferredView = "text");
 end IndexWithEnd;
