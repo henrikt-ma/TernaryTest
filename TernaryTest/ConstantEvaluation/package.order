@@ -13,3 +13,4 @@ Disjunction
 Negation
 ArrayReduction
 TernaryReduction
+ShadowUnknown
