@@ -1,5 +1,6 @@
 toInteger
 fromInteger
 constArg
+localArg
 fromIntegerArray
 toIntegerArray

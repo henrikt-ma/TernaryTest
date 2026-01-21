@@ -1,7 +1,7 @@
 within TernaryTest.ExternalFunctions.ExternalC;
 
 model ConstantArgument
-  extends Icons.Example;
+  extends Icons.BrokenExample;
   Integer i(start = Utilities.constArg(false), fixed = true);
 equation
   when time > 0.5 then

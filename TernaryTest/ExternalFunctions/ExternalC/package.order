@@ -3,6 +3,7 @@ FromInteger
 FromIntegerOutOfRangeAbove
 FromIntegerOutOfRangeBelow
 ConstantArgument
+LocalArgument
 Roundtrip
 ToIntegerArray
 OutputArray
