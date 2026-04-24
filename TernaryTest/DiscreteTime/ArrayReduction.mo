@@ -8,7 +8,8 @@ model ArrayReduction
     output __Wolfram_Ternary t = if n < 1 then false elseif n > 1 then true else __Wolfram_unknown;
   end ternaryOf0to2;
 
-  Integer i = integer(floor(3 * time));
+  constant Real rate(unit = "1/s") = 3.0;
+  Integer i = integer(floor(rate * time));
   __Wolfram_Ternary x = ternaryOf0to2(mod(i, 3));
   __Wolfram_Ternary y = ternaryOf0to2(mod(div(i, 3), 3));
   __Wolfram_Ternary z = ternaryOf0to2(mod(div(i, 9), 3));

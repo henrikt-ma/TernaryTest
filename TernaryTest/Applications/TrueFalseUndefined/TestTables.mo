@@ -15,7 +15,8 @@ model TestTables
     annotation(Inline = false);
   end andFun;
 
-  Integer i = integer(floor(time));
+  constant Real rate(unit = "1/s") = 1.0;
+  Integer i = integer(floor(rate * time));
   __Wolfram_Ternary x = ternaryOf0to2(mod(i, 3));
   __Wolfram_Ternary y = ternaryOf0to2(mod(div(i, 3), 3));
   __Wolfram_Ternary x_con_y = andFun(x, y) "To be compared with (but not equal to) x_and_y";
